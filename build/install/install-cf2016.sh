@@ -7,7 +7,7 @@ cd /tmp
 # get the coldfusion installer
 if [ ! -f "ColdFusion_2016_WWEJ_linux64.bin" ]
 then
-    wget http://trials3.adobe.com/AdobeProducts/CSTD/12_0_3/linux64/ColdFusion_2016_WWEJ_linux64.bin
+    wget -O ColdFusion_2016_WWEJ_linux64.bin https://www.dropbox.com/s/ycehovtvrcizotr/ColdFusion_2016_WWEJ_linux64.bin?dl=1
 fi
 
 chmod 755 ColdFusion_2016_WWEJ_linux64.bin

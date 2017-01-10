@@ -1,7 +1,7 @@
 cd /tmp
 
 # download MySQL 5 driver
-wget "https://www.dropbox.com/s/oe18zd9hqehu0a7/mysql-connector-java-5.1.34.tar?dl=1"
+wget -O mysql-connector-java-5.1.34.tar.gz https://www.dropbox.com/s/oe18zd9hqehu0a7/mysql-connector-java-5.1.34.tar?dl=1
 
 # extract jar file
 tar -zxvf mysql-connector-java-5.1.34.tar.gz
