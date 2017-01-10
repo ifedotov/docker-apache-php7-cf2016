@@ -1,6 +1,6 @@
 #!/bin/bash
 
-PASSWORD="Adm1n!12"
+PASSWORD="engine"
 
 cd /opt/coldfusion2016/cfusion/bin
 
