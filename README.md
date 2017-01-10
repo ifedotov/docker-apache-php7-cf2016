@@ -13,7 +13,6 @@ Run newly created image in a container:
 ```bash
 $ docker run -dit -p 80:80 -p 8500:8500 \
     -v /Volumes/Data/Server:/var/www \
-    -e PHP_ERROR_REPORTING='E_ALL & ~E_STRICT' \
     --name apache-php7-cf2016 --restart always \
     thisismyengine/docker-apache-php7-cf2016
 ```
