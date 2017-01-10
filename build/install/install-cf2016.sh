@@ -7,7 +7,7 @@ cd /tmp
 # get the coldfusion installer
 if [ ! -f "ColdFusion_2016_WWEJ_linux64.bin" ]
 then
-    wget https://s3-eu-west-1.amazonaws.com/accent-docker/ColdFusion_2016_WWEJ_linux64.bin
+    wget http://trials3.adobe.com/AdobeProducts/CSTD/12_0_3/linux64/ColdFusion_2016_WWEJ_linux64.bin
 fi
 
 chmod 755 ColdFusion_2016_WWEJ_linux64.bin
