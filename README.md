@@ -25,7 +25,7 @@ Installed packages
 -------------------
 * Ubuntu Server 16.04, based on ubuntu docker image
 * ColdFusion 2016
-	* MySQL Connector 5.1.34
+	* MySQL Connector 5.1.40
 * apache2
 * php7.0
 * php7.0-cli
