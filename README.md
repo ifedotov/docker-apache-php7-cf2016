@@ -20,7 +20,6 @@ $ docker run -dit -p 80:80 -p 8500:8500 \
 * `-v [local path]:/var/www` maps the container's webroot to a local path
 * `-p [local port]:80` maps a local port to the container's HTTP port 80
 * `-p [local port]:8500` maps a local port to the ColdFusions built in webserver port 8500
-* `-e PHP_ERROR_REPORTING=[php error_reporting settings]` sets the value of `error_reporting` in the php.ini files.
 
 Installed packages
 -------------------
