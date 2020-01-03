@@ -7,7 +7,7 @@ cd /tmp
 # get the coldfusion installer
 if [ ! -f "ColdFusion_2016_WWEJ_linux64.bin" ]
 then
-    wget -O ColdFusion_2016_WWEJ_linux64.bin https://www.dropbox.com/s/ycehovtvrcizotr/ColdFusion_2016_WWEJ_linux64.bin?dl=1
+    wget -O ColdFusion_2016_WWEJ_linux64.bin https://drive.google.com/open?id=0Bwmlt4TArPS5cHJnakR1TUkyU3c
 fi
 
 chmod 755 ColdFusion_2016_WWEJ_linux64.bin
