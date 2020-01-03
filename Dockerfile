@@ -40,6 +40,7 @@ RUN apt-get install -y \
 ADD ./build/install/	/tmp/
 
 # install cf2016
+COPY ColdFusion_2016_WWEJ_linux64.bin /tmp/ColdFusion_2016_WWEJ_linux64.bin
 RUN chmod +x /tmp/install-cf2016.sh
 RUN /tmp/install-cf2016.sh
 
